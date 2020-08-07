@@ -1,15 +1,61 @@
-/* Цвет основного текста #212121 */
-/* Цвет вторичного текста #757575 */
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --other-color: #FFFFFF;
+    --footer-color: rgba(255, 255, 255, 0.6);
+}
+/* Цвет основного текста #757575 */
+/* Цвет вторичного текста #212121 */
 /* Цвет другого текста #FFFFFF */
 /* Цвет наведения и акцент #2196F3*/
 /* Цвет в футере rgba(255, 255, 255, 0.6)*/
 /* Цвет фона вторичный #F5F4FA*/
 body {
     background-color: #FFFFFF;
-    color: #757575
+    color: var(--primery-text-color);
+    font-family: Roboto;
 }
+/* стиль логотипа*/
 
+.logo-word {
+    color: var(--accent-color);
+}
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+/* стиль ссылок*/
 a:hover,
 a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+a {
+    color:var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav a{
+    color:var(--title-text-color); 
+}
+.site-address a{
+    color:var(--primery-text-color);
+}
+.site-nav a:hover, .site-nav a:focus, .site-address a:hover, .site-address a:focus
+{
+    color:var(--accent-color);
+}
+/* стиль оглавлений секций*/
+.section-title, .item-title {
+    color:var(--title-text-color);
+}
+/*кнопка*/
+.button {
+    color: var(--other-color);
+    background-color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
 }
