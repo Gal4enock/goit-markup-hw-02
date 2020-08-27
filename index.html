@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
     
 </head>
@@ -35,7 +36,7 @@
     <main>      
         <!--Герой-->
         <div>
-            <section>
+            <section class="hero">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <a href="" class="button">Заказать услугу</a>
             </section> 
@@ -47,28 +48,28 @@
                     <li>
                         <img src="./img/ant.svg" alt="спутниковая антенна">
                         <h3 class="item-title">Внимание к деталям</h3>
-                        <p>
+                        <p class="item-details">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
                     <li>
                         <img src="./img/clock.svg" alt="часы">
                         <h3 class="item-title">Пунктуальность</h3>
-                        <p>
+                        <p class="item-details">
                             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
                     <li>
                         <img src="./img/comp.svg" alt="компьютер">
                         <h3 class="item-title"> Планирование</h3>
-                        <p>
+                        <p class="item-details">
                             Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
                     <li>
                         <img src="./img/cosmo.svg" alt="космонавт">
                         <h3 class="item-title">Современные технологии</h3>
-                        <p>
+                        <p class="item-details">
                             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
@@ -96,8 +97,8 @@
                 <!--Николай Кучеренко-->
                 <li>
                     <img src="./img/nikola.png" alt="Фото Николая" width="270">
-                    <h3 class="item-title">Николай Кучеренко</h3> 
-                    <p>Product Designer</p> 
+                    <h3 class="name">Николай Кучеренко</h3> 
+                    <p class="profession-name">Product Designer</p> 
                     <ul>
                         <li>
                             <a href=""> <img src="./img/instagram2.svg" alt="иконка инстаграм"> </a>
@@ -116,8 +117,8 @@
                 <!--Ольга Иванова-->
                 <li>
                     <img src="./img/olga.png" alt="Фото Ольги" width="270">
-                    <h3 class="item-title">Ольга Иванова</h3> 
-                    <p>Frontend Developer</p> 
+                    <h3 class="name">Ольга Иванова</h3> 
+                    <p class="profession-name">Frontend Developer</p> 
                     <ul>
                         <li>
                             <a href=""> <img src="./img/instagram2.svg" alt="иконка инстаграм"> </a>
@@ -136,8 +137,8 @@
                 <!--Андрей Шевченко-->
                 <li>
                     <img src="./img/andrei.png" alt="Фото Андрея" width="270">
-                    <h3 class="item-title">Андрей Шевченко</h3> 
-                    <p>Marketing</p> 
+                    <h3 class="name">Андрей Шевченко</h3> 
+                    <p class="profession-name">Marketing</p> 
                     <ul>
                         <li>
                             <a href=""> <img src="./img/instagram2.svg" alt="иконка инстаграм"> </a>
@@ -156,8 +157,8 @@
                 <!--Иван Николаев-->
                 <li>
                     <img src="./img/ivan.png" alt="Фото Ивана" width="270">
-                    <h3 class="item-title">Иван Николаев</h3> 
-                    <p>UI Designer</p> 
+                    <h3 class="name">Иван Николаев</h3> 
+                    <p class="profession-name">UI Designer</p> 
                     <ul>
                         <li>
                             <a href=""> <img src="./img/instagram2.svg" alt="иконка инстаграм"> </a>
@@ -192,24 +193,22 @@
     <footer>
         <!--Контакты--> 
         <section>
-            <h2>Web Studio</h2>
-            <address>
+            <h2 class="logo-footer"> <span class="logo-word">Web</span> Studio</h2>
                 <ul>
-                    <li>
+                    <li class="post-adres">
                         г. Киев, пр-т Леси Украинки, 26
                     </li>
-                    <li>
+                    <li class="contact-us">
                         info@example.com
                     </li>
-                    <li>
+                    <li class="contact-us">
                         +38 099 111 11 11
                     </li>
                 </ul>
-            </address>
         </section>
         <!--Социальный сети-->
         <section>
-            <h2>присоединяйтесь</h2>
+            <h2 class="join">присоединяйтесь</h2>
             <ul>
                 <li>
                     <a href=""> <img src="./img/instagram2.svg" alt="иконка инстаграм"> </a>
