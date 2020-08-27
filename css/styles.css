@@ -47,15 +47,26 @@ a {
 {
     color:var(--accent-color);
 }
-/* стиль оглавлений секций*/
-.section-title, .item-title {
-    color:var(--title-text-color);
-}
 /*кнопка*/
 .button {
     color: var(--other-color);
     background-color: var(--accent-color);
 }
+button:hover, button:focus {
+    color: var(--other-color);
+    background-color: var(--accent-color);
+}
 .site-nav .link.current {
     color: var(--accent-color);
+}
+/*стиль секций*/
+/*секция герой*/
+.hero-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+/* стиль оглавлений секций*/
+.section-title, .item-title {
+    color:var(--title-text-color);
+    text-align: center;
 }
