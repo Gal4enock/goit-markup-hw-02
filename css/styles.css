@@ -61,23 +61,21 @@ a {
     color:var(--accent-color);
 }
 /*кнопка*/
-.button {
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.button-hero {
+    font-weight: 700;
+    line-height: 1.6;
     background-color: var(--accent-color);
     color: var(--other-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    line-height: 1.875;
 }
-button {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-
-}
+  
 button:hover, button:focus {
     color: var(--other-color);
     background-color: var(--accent-color);
